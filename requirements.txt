@@ -1,4 +1,4 @@
 googlemaps
 django-environ
-vectors2vrt
+vectors2vrt>=0.3
 esridump

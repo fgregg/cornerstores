@@ -4,10 +4,7 @@ zoning.csv : layers.sqlite
 layers.sqlite : layers.vrt
 	ogr2ogr -f SQLite $@ $< -dsco SPATIALITE=YES
 
-layers.vrt : layers_raw.vrt
-	# manually add the geometry defintion to the CSV
-
-layers_raw.vrt : zoning.geojson processed/geocoded_establishments.csv
+layers.vrt : zoning.geojson processed/geocoded_establishments.csv
 	vectors2vrt $^ -o $@
 
 zoning.geojson :
