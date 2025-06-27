@@ -1,0 +1,11 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="zoning">
+    <SrcDataSource>zoning.geojson</SrcDataSource>
+    <SrcLayer>zoning</SrcLayer>
+  </OGRVRTLayer>
+  <OGRVRTLayer name="geocoded_establishments">
+    <SrcDataSource>processed/geocoded_establishments.csv</SrcDataSource>
+    <SrcLayer>geocoded_establishments</SrcLayer>
+    <GeometryField encoding="PointFromColumns" x="lng" y="lat"></GeometryField>
+  </OGRVRTLayer>
+</OGRVRTDataSource>
