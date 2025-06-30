@@ -8,4 +8,5 @@ Are there any food establishments in residentially zoned areas in Ann Arbor.
 4. Geocoded the addresses with the Google MAPS Geocoder
 5. Download the zoning districts
 6. Do a spatial join to find the [zoning of geocoded Ann Arbor establishments](https://docs.google.com/spreadsheets/d/1yR0cgWMPvBpujM1UhvzlHTxpxWKwlZSguLhEDp_jEmo/edit?gid=1118172325#gid=1118172325)
+
 Use only as a preliminary indicator. The PDF extraction and geocoding can go awry.
